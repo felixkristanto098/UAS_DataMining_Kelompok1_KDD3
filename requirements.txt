@@ -1,12 +1,12 @@
 seaborn
 imbalanced-learn
 plotly
-shap
-streamlit
+streamlit==1.45.1
 pandas==2.2.2
-numpy
+numpy==2.2.6
 scikit-learn==1.6.1
 xgboost==3.2.0
 lightgbm==4.6.0
-joblib
-matplotlib
+matplotlib==3.10.3
+joblib==1.5.1
+shap==0.48.0
