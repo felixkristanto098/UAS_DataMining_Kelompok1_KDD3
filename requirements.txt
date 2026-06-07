@@ -9,4 +9,4 @@ xgboost
 lightgbm==4.6.0
 matplotlib==3.10.3
 joblib==1.5.1
-shap==0.48.0
+shap
