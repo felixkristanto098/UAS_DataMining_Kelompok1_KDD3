@@ -324,7 +324,7 @@ st.markdown('<div class="section-label">01 · Pilih Skenario</div>', unsafe_allo
 scenario   = st.radio("", ["Dengan Input Water Intake",
                             "Tanpa Input Water Intake"],
                        horizontal=True, label_visibility="collapsed")
-use_intake = "Skenario 1" in scenario
+use_intake = "Dengan" in scenario
 
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
