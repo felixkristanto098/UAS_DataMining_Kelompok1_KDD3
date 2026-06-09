@@ -6,9 +6,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# =====================================================
-# STYLING (CSS KUSTOM)
-# =====================================================
 st.markdown("""
 <style>
 
@@ -203,9 +200,6 @@ section[data-testid="stSidebar"] > div {
 </style>
 """, unsafe_allow_html=True)
 
-# =====================================================
-# KONTEN SIDEBAR
-# =====================================================
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-title"></div>
@@ -224,9 +218,7 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-# =====================================================
-# KONTEN UTAMA
-# =====================================================
+
 st.markdown("""
 <div class="hero">
     <div class="title">
