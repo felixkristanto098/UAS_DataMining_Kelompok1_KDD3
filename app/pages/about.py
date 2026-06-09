@@ -356,8 +356,8 @@ st.markdown(f"""
 <div class="page-header">
     <div class="eyebrow">About Project</div>
     <div class="page-title">
-        Project<br>
-        <em>Overview.</em>
+        About<br>
+        <em>Project.</em>
     </div>
 </div>
 
