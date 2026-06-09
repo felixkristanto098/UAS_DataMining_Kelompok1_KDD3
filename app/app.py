@@ -85,7 +85,7 @@ section[data-testid="stSidebar"] > div {
 }
 
 .sidebar-title {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     margin-bottom: 0;
 }
@@ -128,7 +128,7 @@ section[data-testid="stSidebar"] > div {
 }
 
 .title {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 5.5rem;
     line-height: 0.92;
     font-weight: 300;
@@ -136,7 +136,7 @@ section[data-testid="stSidebar"] > div {
 }
 
 .title em {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     color: var(--ocean);
     font-style: italic;
 }
@@ -186,7 +186,7 @@ section[data-testid="stSidebar"] > div {
 .card:nth-child(3) { background: var(--aqua-light); }
 
 .card-number {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 3.5rem;
     line-height: 1;
     margin-bottom: 0.5rem;

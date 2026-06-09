@@ -63,7 +63,7 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
 .stSidebar .st-emotion-cache-12bp31y { color: var(--ocean-light) !important; }
 
 .sidebar-title {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     color: white;
     margin-bottom: 0;
@@ -116,7 +116,7 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
     margin-bottom: 1rem;
 }
 .page-title {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 5.5rem;
     line-height: 0.92;
     font-weight: 300;
@@ -124,7 +124,7 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
     margin-bottom: 2.5rem;
 }
 .page-title em {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     color: var(--ocean);
     font-style: italic;
 }

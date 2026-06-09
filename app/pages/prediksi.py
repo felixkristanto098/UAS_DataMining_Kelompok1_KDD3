@@ -61,7 +61,7 @@ section[data-testid="stSidebar"] {
     border-right: none;
 }
 section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
-.sidebar-title { font-family: 'Londrina Shadow', sans-serif !important; font-size: 2.2rem; color: white; margin-bottom: 0; }
+.sidebar-title { font-family: 'Poppins', sans-serif; font-size: 2.2rem; color: white; margin-bottom: 0; }
 .sidebar-sub   { font-family: 'Open Sans', sans-serif !important; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.6; color: white; margin-bottom: 2rem; }
 .team-title    { font-family: 'Open Sans', sans-serif !important; font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.45; color: white; margin-bottom: 1rem; }
 .member        { background: rgba(255,255,255,0.07); padding: 0.9rem; border-radius: 8px; margin-bottom: 0.7rem; border-left: 2px solid var(--sky); }
@@ -69,8 +69,8 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
 .member-id     { font-family: 'Open Sans', sans-serif !important; font-size: 0.7rem; opacity: 0.55; color: white; margin-top: 4px; }
 
 .eyebrow    { font-family: 'Open Sans', sans-serif !important; font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--ocean-mid); margin-bottom: 1rem; }
-.page-title { font-family: 'Londrina Shadow', sans-serif !important; font-size: 5.5rem; line-height: 0.92; font-weight: 300; color: var(--text); margin-bottom: 2rem; }
-.page-title em { font-family: 'Londrina Shadow', sans-serif !important; color: var(--ocean); font-style: italic; }
+.page-title { font-family: 'Poppins', sans-serif; font-size: 5.5rem; line-height: 0.92; font-weight: 300; color: var(--text); margin-bottom: 2rem; }
+.page-title em { font-family: 'Poppins', sans-serif; color: var(--ocean); font-style: italic; }
 .divider    { width:100%; height:1px; background:var(--border); margin:2rem 0; }
 .section-label {
     font-family: 'Open Sans', sans-serif !important; font-size: 0.65rem; letter-spacing: 0.22em;

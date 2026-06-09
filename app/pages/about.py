@@ -85,7 +85,7 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
 }
 
 .sidebar-title {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     margin-bottom: 0;
 }
@@ -128,14 +128,14 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
 }
 
 .page-title {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 5.5rem;
     line-height: 0.92;
     font-weight: 300;
     color: var(--text);
 }
 .page-title em {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     color: var(--ocean);
     font-style: italic;
 }
@@ -186,7 +186,7 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
 }
 .method-card .method-tag { color: var(--ocean); }
 .method-name {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.2;
@@ -248,7 +248,7 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
 .ds-cell:nth-child(3) { background: var(--ocean-light); }
 
 .ds-num {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.4rem;
     font-weight: 300;
     line-height: 1;
@@ -273,7 +273,7 @@ section[data-testid="stSidebar"] > div { padding: 2rem 1.5rem !important; }
     background: #fff;
 }
 .fw-num {
-    font-family: 'Londrina Shadow', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 300;
     color: var(--ocean-mid);
@@ -410,7 +410,7 @@ st.markdown(f"""
 
 <div class="divider"></div>
 
-<div class="section-label">02 · Dataset</div>
+<div class="section-label">03 · Dataset</div>
 <div class="info-table">
     <div class="info-row">
         <div class="info-key">Dataset</div>
@@ -448,7 +448,7 @@ st.markdown(f"""
 
 <div class="divider"></div>
 
-<div class="section-label">03 · Framework</div>
+<div class="section-label">04 · Framework</div>
 <div class="framework-block">
     <div class="fw-step">
         <div class="fw-num">01</div>
