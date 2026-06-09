@@ -321,8 +321,8 @@ def render_shap_classifier(shap_df, expected_value):
 
 st.markdown('<div class="section-label">01 · Pilih Skenario</div>', unsafe_allow_html=True)
 
-scenario   = st.radio("", ["Skenario 1 — Dengan Input Water Intake",
-                            "Skenario 2 — Tanpa Input Water Intake"],
+scenario   = st.radio("", ["Dengan Input Water Intake",
+                            "Tanpa Input Water Intake"],
                        horizontal=True, label_visibility="collapsed")
 use_intake = "Skenario 1" in scenario
 
@@ -441,7 +441,7 @@ if predict_btn:
             "Physical Activity Level": activity,
             "Weather":                 weather,
             "Daily Water Intake":      f"{water_intake:.1f} L",
-            "Skenario":                "Skenario 1 — Klasifikasi",
+            "Skenario":                "Klasifikasi",
             "Algoritma":               "XGBoost",
             "Prediksi":                f"{quality_icon} {display_label}",
             "Prob. Good":              f"{prob_good:.1%}",
@@ -474,8 +474,8 @@ if predict_btn:
             "Weight":                  f"{weight} kg",
             "Physical Activity Level": activity,
             "Weather":                 weather,
-            "Daily Water Intake":      "— (tidak diinput)",
-            "Skenario":                "Skenario 2 — Regresi",
+            "Daily Water Intake":      "(tidak diinput)",
+            "Skenario":                "Regresi",
             "Algoritma":               "LightGBM",
             "Estimasi Kebutuhan Air":  f"{pred_intake:.2f} L / hari",
         }
