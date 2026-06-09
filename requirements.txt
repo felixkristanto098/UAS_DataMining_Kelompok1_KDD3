@@ -10,4 +10,3 @@ plotly
 shap
 lightgbm
 xgboost
-streamlit_option_menu
